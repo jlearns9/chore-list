@@ -1,0 +1,16 @@
+1 - grab the elements:
+- input field
+- add button
+- delete button
+- list of chores
+
+2 - setup an empty array to store the chores
+
+3 - setup a variable equal to 'myChores' in localStorage
+
+4 - create functions:
+- render chore list:
+- add chores to list:
+- clear chore list:
+
+5 - setup event listeners for both buttons

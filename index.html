@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <title>Choreslist</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,10 +10,11 @@
     <body>
         <div class="container">
             <h1>Choreslist</h1>
-            <input type="text">
-            <button>-></button>
-            <button>✕</button>
+            <input id="input-el" type="text" placeholder="Do dishes">
+            <button id="add-btn">-></button>
+            <button id="delete-btn">✕</button>
         </div>
+        <ul id="chores-list-display"></ul>
         <script src="index.js"></script>
     </body>
 </html>
